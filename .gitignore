@@ -1,0 +1,8 @@
+# Personal info
+config.txt
+
+# Output files
+unauthorized.log
+
+# Trash
+*~
