@@ -10,9 +10,11 @@ When the user ID is not from the owner, returns always the same message ("Sorry,
 
 ## Configuration
 In order for the bot to work, the file config.txt has to exist and contain:  
-[bot token]  
-[allowed user id]  
-[*ip\_address\_of\_transmission\_server* *port\_of\_transmission\_server* *username* *password*]
+[bot\_token]  
+[allowed\_user\_id]  
+[ip\_address port username password]  
+  
+Last line contains information about the transmission server.
 
 ## Log
 The bot is configured with logs which go to stderr and also keeps record of unallowed users trying to communicate with the bot in the file unauthorized.log.
@@ -21,7 +23,7 @@ The bot is configured with logs which go to stderr and also keeps record of unal
 
 Restruct and clean the code
 
-####More functionalities:
+**More functionalities:**
 -add_torrent in two messages  
 -search_torrent (search films or tv shows and add the torrent)  
 -status of the server  
