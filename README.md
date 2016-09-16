@@ -8,7 +8,7 @@ A bot implementation using python and the telegram.ext library. The bot provides
 
 When the user ID is not from the owner, returns always the same message ("Sorry, this is a private bot") and logs the id, name and last name of the user.
 
-## Configuration
+### Configuration
 In order for the bot to work, the file config.txt has to exist and contain:  
 [bot\_token]  
 [allowed\_user\_id]  
@@ -16,15 +16,15 @@ In order for the bot to work, the file config.txt has to exist and contain:
   
 Last line contains information about the transmission server.
 
-## Log
+### Log
 The bot is configured with logs which go to stderr and also keeps record of unallowed users trying to communicate with the bot in the file unauthorized.log.
 
-## TODO
+### TODO
 
 Restruct and clean the code
 
 **More functionalities:**
--add_torrent in two messages  
--search_torrent (search films or tv shows and add the torrent)  
--status of the server  
--more?  
+- add\_torrent in two messages  
+- search\_torrent (search films or tv shows and add the torrent)  
+- status of the server  
+- more?  
